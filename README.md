@@ -1,7 +1,7 @@
 # Full Adder Power and Delay Optimization using Neural Networks
 
 ## Overview
-This project models and optimizes the **power** and **delay** of a **full adder circuit** using machine learning. 
+This project uses machine learning to model and optimize the **average power** and **propagation delay** of a CMOS full adder circuit. 
 The workflow involves generating simulation data using **LTspice**, training a **neural network** with TensorFlow/Keras, 
 and performing parameter optimization using techniques like **differential evolution**.
 
