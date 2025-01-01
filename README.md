@@ -7,7 +7,7 @@ and performing parameter optimization using techniques like **differential evolu
 
 ### Key Features
 - **Data Generation**: Automates input parameter generation using **Latin Hypercube Sampling (LHS)**.
-- **Neural Network Training**: Models the relationship between \(V_{DD}, W_n, C_L\) and the circuit's power and delay.
+- **Neural Network Training**: Models the relationship between $\(V_{DD}, W_n, C_L\)$ and the circuit's power and delay.
 - **Parameter Optimization**: Finds optimal \(V_{DD}, W_n, C_L\) values to minimize power and delay.
 - **Visualization**: Provides tools for analyzing predictions and trade-offs.
 
