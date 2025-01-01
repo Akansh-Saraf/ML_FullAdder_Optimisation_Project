@@ -52,14 +52,10 @@ The project begins with generating training data by simulating the full adder ci
      - **Worst-Case Delay**: Measured from $A \to C_{out}$ using the longest signal propagation path.
    - The simulation results (power and delay) are stored alongside their corresponding input parameters in a structured dataset.
    
-    ![image-2.png](attachment:image-2.png)
+    ![Full_Adder.png](circuit_schematic/Full_Adder.png)
      
                                                  Full Adder Circuit Schematic
-                                     
-     
-    ![image-3.png](attachment:image-3.png)
-     
-                                         XOR Gate Schematic used in Full Adder Circuit
+
 ---
 
 ### **2. Model Training**
