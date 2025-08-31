@@ -40,7 +40,7 @@ The project begins with generating training data by simulating the full adder ci
    - These parameters significantly affect the power consumption and delay of the circuit.
    The process technology used was 180nm with $L_n=L_p=180nm$ remaining constant. The width of PMOS was scaled to twice the width of NMOS to account for the difference in electron and hole mobility $W_p=2*W_n$
     
-    The inputs to the Full Adder A,B,Cin were varied according to the truth table over 1 complete cycle with a clock frequency  of $220nm$
+    The inputs to the Full Adder A,B,Cin were varied according to the truth table over 1 complete cycle with a clock frequency  of $220ns$
 
 2. **Latin Hypercube Sampling (LHS)**:
    - To generate diverse parameter combinations, **LHS** is used. This method ensures that the entire parameter space is uniformly sampled without requiring exhaustive combinations.
@@ -163,4 +163,5 @@ The accuracy of the neural network is validated by comparing its predictions wit
 ---
 
 ---
+
 
